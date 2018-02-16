@@ -1,0 +1,53 @@
+commit 98ba77d95347da9d29d52d18d4fd083ae27e0da6
+Author: Foored <foored1999@gmail.com>
+Date:   Sat Feb 17 00:39:59 2018 +0300
+
+    status.txt has been added and modified
+
+commit 233e1cce1e9bedee65ec8e82ccc1531051abc6d3
+Author: Foored <foored1999@gmail.com>
+Date:   Sat Feb 17 00:22:27 2018 +0300
+
+    add .gitignore
+
+commit 63d1c4360500e57aea9c43b17df6e20a01641025
+Author: Foored <foored1999@gmail.com>
+Date:   Sat Feb 17 00:08:02 2018 +0300
+
+    Old data has been removed
+
+commit 782fc00c149c2eee6a356777969ea38f846e81db
+Author: Foored <foored1999@gmail.com>
+Date:   Tue Feb 6 19:03:54 2018 +0300
+
+    log.txt is ready
+
+commit a0c3076229e9a1fd117be82a6deb8abf9efc3c84
+Author: Foored <foored1999@gmail.com>
+Date:   Tue Feb 6 19:00:58 2018 +0300
+
+    status.txt is ready
+
+commit edc3c7b27a280b6f9ad4c3376136308c850dc9a1
+Author: Foored <foored1999@gmail.com>
+Date:   Tue Feb 6 18:46:31 2018 +0300
+
+    add .gitignore
+
+commit be351965b03842835ffc531ef6cb0411e975bc80
+Author: Foored <foored1999@gmail.com>
+Date:   Tue Feb 6 18:23:02 2018 +0300
+
+    1
+
+commit 37c51427a3b490e6e237f369d3431b137f9757ab
+Author: Foored <foored1999@gmail.com>
+Date:   Tue Feb 6 17:59:00 2018 +0300
+
+    add .gitignore
+
+commit f3c198520606c23ebb943f5d6b9df3e680ce6b55
+Author: Foored <foored1999@gmail.com>
+Date:   Tue Feb 6 17:45:11 2018 +0300
+
+    add .gitignore
