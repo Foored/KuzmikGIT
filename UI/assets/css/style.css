@@ -74,7 +74,7 @@ body{
 }
 .add-photo{
     float: left;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .add-photo{
     cursor: pointer;
@@ -86,10 +86,10 @@ body{
 
 .log-out{
     float: left;
-    margin-left: 40%;
     margin-top: 2px;
 }
 .log-out img{
+    margin-left: 40%;
     cursor: pointer;
 }
 
@@ -195,7 +195,7 @@ body{
     margin-top: 50px;
     width: 250px;
     height: 400px;
-    margin-left: 1%;
+    margin-left: 10%;
     background-color: white;
 }
 .search-head{
