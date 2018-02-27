@@ -86,10 +86,10 @@ body{
 
 .log-out{
     float: left;
+    margin-left:48vw;
     margin-top: 2px;
 }
 .log-out img{
-    margin-left: 40%;
     cursor: pointer;
 }
 
@@ -138,11 +138,27 @@ body{
 }
 .post-time{
     float: bottom;
-    margin-bottom: 3px;
+    margin-top: 10px;
     height: 10px;
     font-size: 6px;
     margin-left: 12px;
     color: gray;
+}
+.post img{
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top:3px;
+}
+.post-name i{
+    display: inline-block;
+    float: right;
+    font-size:20px;
+    margin-right:20px;
+    color: grey;
+}
+.post-time h1{
+    display: inline-block;
+
 }
 
 .post-description{
@@ -174,6 +190,7 @@ body{
     font-size: 9px;
 }
 .like-icon{
+    cursor: pointer;
     float:left;
     margin-top:15px;
     color: red;
