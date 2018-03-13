@@ -20,7 +20,6 @@
         +"    </div>\n"
         +"</div>\n"
 
-
     }
 })(this.mainPage = {});
 function login(username){
@@ -62,10 +61,11 @@ function getFormatDate(photoPost) {
 
     return day + "." + month + "." + year + "  " + hours + ":" + minutes;
 }
-
-function showPhotoPosts() {
+var filterConfigPrevious = {};
+function showPhotoPosts(skip, top, filterConfig) {
     document.getElementsByClassName("strip border-type")[0].innerHTML=""
-    array = getPhotoPosts(0,20)
+    filterConfigPrevious = filterConfig
+    array = getPhotoPosts(skip,top,filterConfig)
     for(var i = 0 ; i < array.length; i++)
         showPhotoPost(array[i])
 }
@@ -76,6 +76,7 @@ function showPhotoPost(id) {
 
 function removePhotoPost(id) {
     modulePhotoPosts.removePhotoPost(id)
+    showPhotoPosts(0,10,filterConfigPrevious)
 }
 
 function getPhotoPost(id) {
@@ -84,10 +85,13 @@ function getPhotoPost(id) {
 
 function editPhotoPost(id, photoPost) {
     modulePhotoPosts.editPhotoPost(id,photoPost)
+    showPhotoPosts(0,10,filterConfigPrevious)
 }
 
 function addPhotoPost(photoPost){
     modulePhotoPosts.addPhotoPost(photoPost)
+    showPhotoPosts(0,10,filterConfigPrevious)
+
 }
 
 function getPhotoPosts(skip,top,filterConfig){
