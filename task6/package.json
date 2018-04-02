@@ -1,0 +1,20 @@
+{
+  "name": "studpract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foored/KuzmikGIT.git"
+  },
+  "author": "Kuzmiks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foored/KuzmikGIT/issues"
+  },
+  "homepage": "https://github.com/Foored/KuzmikGIT#readme"
+}

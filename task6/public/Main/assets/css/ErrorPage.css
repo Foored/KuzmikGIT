@@ -1,0 +1,19 @@
+.error-content{
+    background-image: url("../pics/errorBackground.png");
+    background-size: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.error-content h1{
+    margin-top: 15%;
+    margin-left: 65%;
+    color: white;
+}
+
+.error-content button{
+    width: 100px;
+    height: 40px;
+    margin-left: 70%;
+}
+
