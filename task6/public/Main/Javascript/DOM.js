@@ -2,7 +2,7 @@
 
 let currentUser = {};
 currentUser.name = '';
-
+let maxID;
 let mainPageStrip = function () {
     function showPhotoPost(photoPost){
         console.log(photoPost.id);

@@ -397,7 +397,9 @@ var eventsModule = function () {
             photoPost.createdAt = new Date();
             photoPost.likes = [];
             //localStorageModule.loadArray();
-            photoPost.id = (photoPosts.length + 1).toString();
+            photoPost.id = (maxID + 1).toString();
+            maxID+=1;
+            localStorage.setItem('maxID', JSON.stringify(maxID));
             if(modulePhotoPosts.addPhotoPost(photoPost)) {
                 localStorageModule.addArrayToLS();
                 showMainPage();
@@ -429,6 +431,14 @@ function showErrorPage() {
     eventsModule.showErrorPage()
 }
 
-if(localStorage.getItem('photoPosts') === null)
+if(localStorage.getItem('photoPosts') === null) {
     localStorageModule.addBackupToLS();
+    maxID = 20;
+    localStorage.setItem('maxID',maxID.toString());
+}
+else
+    maxID = Number(localStorage.getItem('maxID'));
+if(localStorage.getItem('currentUser')==='null' || localStorage.getItem('currentUser')===null) {
+    localStorage.setItem('currentUser', '');
+}
 showMainPage();
