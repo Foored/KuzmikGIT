@@ -429,6 +429,6 @@ function showErrorPage() {
     eventsModule.showErrorPage()
 }
 
-if(localStorage.getItem('photoPosts') === '')
+if(localStorage.getItem('photoPosts') === null)
     localStorageModule.addBackupToLS();
 showMainPage();
