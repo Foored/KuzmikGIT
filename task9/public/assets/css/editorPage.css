@@ -1,0 +1,16 @@
+.edit-panel{
+    float:left;
+    width:400px;
+    height:30px;
+    margin-top:5px;
+    margin-left: 40px;
+}
+.post-bottom input{
+    margin-right:100px;
+}
+.edition input{
+    margin-bottom: 50px;
+    width: 120px;
+    height: 40px;
+    background-color: #a3f6aa;
+}
